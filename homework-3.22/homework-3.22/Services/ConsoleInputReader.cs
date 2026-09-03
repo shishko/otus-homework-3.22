@@ -1,7 +1,7 @@
 ﻿/// <summary>
 /// Реализует чтение данных из стандартной системной консоли с валидацией ввода.
 /// </summary>
-public class ConsoleInputReader : IInputReader
+internal class ConsoleInputReader : IInputReader
 {
     public int ReadNumber(string prompt)
     {
