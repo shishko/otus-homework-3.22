@@ -1,5 +1,6 @@
 ﻿/// <summary>
 /// Расширенная реализация вывода в консоль, добавляющая цвета для разных типов сообщений.
+/// Принцип подстановки Барбары Лисков: Заменяет ConsoleOutputWriter без нарушения логики программы.
 /// </summary>
 public class AdvancedConsoleOutputWriter : ConsoleOutputWriter, IColorOutputWriter
 {
